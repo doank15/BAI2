@@ -1,0 +1,163 @@
+:root {
+    --primary-color: #000;
+    --text-color:rgb(51, 51, 51);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Popins", sans-serif;
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    margin: 20px 0;
+}
+.nav__person {
+    display: flex;
+    align-items: center;
+}
+
+.nav__icon {
+    cursor: pointer;
+    margin-right: 10px;
+}
+.nav__icon i {
+    font-size: 30px;
+}
+.nav__text {
+    font-size: 1.3rem;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+.nav__item {
+    margin: 0 20px;
+}
+.nav__link {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.btns {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+.margin-right {
+    margin-right: 20px;
+}
+.nav__btn {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.header__text {
+    flex: 1;
+}
+.header__title {
+    margin: 40px 0;
+    text-transform: capitalize;
+    font-size:4rem;
+    font-weight: 600;
+}
+.header__des {
+    color: #999;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+.header__btns {
+    display: flex;
+}
+.header__btn {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.active {
+    background-color: #000;
+    color: #fff;
+}
+.header__img {
+    flex: 1;
+}
+.header__img {
+    margin-left:30px;
+}
+.header__img-right {
+    width: 100%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.footer {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.footer__text {
+    margin-right: 30px;   
+}
+.footer__title {
+    font-size: 2rem;
+    flex: 1;
+    margin-bottom: 20px;
+}
+.footer__des {
+    width: 70%;
+    color: #999;
+    font-size: 1.4rem;
+}
+.footer__img__list {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    position: relative;
+}
+.footer__img-item {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin:0 15px;
+    border-radius: 10px;
+}
+.next {
+    position: absolute;
+    right: -9px;
+    bottom: 50%;
+    padding: 5px 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 3px 10px #666;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: .2s;
+}
+.next:hover {
+    opacity: 1;
+}
+.footer__icon {
+    font-size: 2rem;
+    color:#000;
+}
